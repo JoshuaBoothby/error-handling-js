@@ -31,7 +31,7 @@ async function fetchData() {
 }
 
 function greet(name) {
-  if (name === undefined) {
+  if (name !== undefined) {
     console.log("Hello, " + name);
   } else {
     console.log("Hello, Guest!");
